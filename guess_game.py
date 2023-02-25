@@ -1,3 +1,18 @@
+"""
+Example results:
+Welcome to the word guessing game!
+
+Your hint is: ______
+What is your guess? temple
+Your hint is: ______
+What is your guess? moroni
+Your hint is: mo____
+What is your guess? mosiah
+
+Congratulations! You guessed it!
+It took you 3 guesses.
+"""
+
 print("Welcome to the word guessing game!\n")
 
 answer = "mosiah"
@@ -21,5 +36,5 @@ while guess != answer:
     else:
         print("Not a valid guess. Please guess again.")
 
-print("Congratulations! You guessed it!")
+print("\nCongratulations! You guessed it!")
 print("It took you {0} guesses.".format(len(guesses)))
